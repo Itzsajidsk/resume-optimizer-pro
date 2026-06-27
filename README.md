@@ -16,12 +16,6 @@
 
 ---
 
-### 🌐 Live Demo
-
-**[SmartResume](https://smartresume-app.netlify.app/)**
-
----
-
 ### 📋 Table of Contents
 
 1.  [About The Project](#-about-the-project)
@@ -51,15 +45,21 @@ SmartResume is a full-stack MERN application designed to help job seekers gain a
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack & ML Implementation
 
-This project is built with a modern MERN stack and other leading technologies.
+This project is built with a modern MERN stack and heavily focuses on Machine Learning for intelligent resume processing.
 
-| Frontend | Backend | Database | AI / Auth |
+#### Core Machine Learning Implementation
+* **LLM Integration:** Powered by the **OpenRouter API**, enabling access to state-of-the-art Large Language Models for natural language understanding and generation.
+* **Prompt Engineering:** Custom-designed prompts to analyze resume content, extract key skills, and dynamically rewrite resume sections to align with specific Job Descriptions.
+* **Contextual Analysis System:** The backend processes PDF text extraction and sends structured context to the AI model to perform scoring, pros/cons generation, and tailored improvements.
+
+#### Full-Stack Technologies
+| Frontend | Backend | Database | Authentication |
 | :--- | :--- | :--- | :--- |
-| **React** (Vite) | **Node.js** | **MongoDB** | **OpenRouter API** |
-| **Tailwind CSS** | **Express.js** | **Mongoose** | **JWT & bcrypt.js** |
-| **React Router** | | | |
+| **React** (Vite) | **Node.js** | **MongoDB** | **JWT** |
+| **Tailwind CSS** | **Express.js** | **Mongoose** | **bcrypt.js** |
+| **React Router** | **PDF Parser**| | |
 | **Axios** | | | |
 
 ---
@@ -77,7 +77,7 @@ This guide will walk you through setting up a local development environment.
 
 1.  **📂 Clone the Repository**
     ```sh
-    git clone [https://github.com/aaditya0004/smart-resume-app.git](https://github.com/aaditya0004/smart-resume-app.git)
+    git clone https://github.com/Itzsajidsk/resume-optimizer-pro.git
     cd smart-resume-app
     ```
 
